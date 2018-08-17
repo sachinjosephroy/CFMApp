@@ -36,7 +36,7 @@ public class HomePage extends TestBase {
 	@FindBy(xpath = "//a[text()='no company loaded']")
 	WebElement noCompLoad;
 	
-	@FindBy(xpath = "//a[contains(text(), 'Add Boxes»')]")
+	@FindBy(xpath = "//a[contains(text(), 'Add Boxes')]")
 	WebElement addBoxesBtn;
 	
 	@FindBy(xpath = "//input[@title='Add New Box']")
